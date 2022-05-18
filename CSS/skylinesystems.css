@@ -1,9 +1,38 @@
-body {
-    background-color: whitesmoke;
-    font-family: "Arial";
+.header {
+    background-color: blue;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    float:left
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: black;
   }
 
-nav {
+.active {
+    background-color: darkgray;
+}
+/* 
+#nav {
     background-color: blue;
     position: fixed;
     top: 0;
@@ -13,7 +42,7 @@ nav {
     z-index: 1;
 }
 
-nav ul li {
+#nav ul li {
     float: right;
     margin-right: 50px;
     list-style-type: none;
@@ -30,4 +59,8 @@ nav ul li {
 
 .nav-link:hover {
     color: black;
+} */
+
+html {
+    scroll-behavior: smooth;
 }
