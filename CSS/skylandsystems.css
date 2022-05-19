@@ -39,13 +39,19 @@ nav ul li {
     float: left;
 }
 
-#home {
+.full-width-photo {
     margin-top: 50px;
-    position: relative;
+    position: fixed;
     left: -8px;
     width: 100vw;
     padding-top: 1em;
     padding-bottom: 1em;
     background: url(/images/skyline.jpg) no-repeat;
-    background-size: cover;
+    background-repeat: none;
+    background-color: none;
+}
+
+#tabs {
+    background: fixed;
+    background-color: blue;
 }
