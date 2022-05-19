@@ -1,0 +1,51 @@
+.html {
+    background-color: blue;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'arial narrow bold' !important;
+    font-size: larger !important;
+}
+ 
+nav {
+    background-color: blue;
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100vw;
+    z-index: 1;
+}
+
+nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+  }
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+#skyline {
+    padding-top: 0px;
+    float: left;
+}
+
+#home {
+    margin-top: 50px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: url(/images/skyline.jpg) no-repeat;
+    background-size: cover;
+}
