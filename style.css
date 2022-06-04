@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url(images/skyline.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-bottom: 0 !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+#homePage {
+    min-height: 100%;  
+}
+
+#main {
+    overflow: auto; /* Scrollbar */
+    padding-bottom: 70px;
+    background-color: whitesmoke;
+    font-family: 'arial narrow bold' !important;
+    font-size: x-large !important;
+}
+
+/* ----------- Nav Bar Section ----------- */
+
+nav {
+    background-color: blue;
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100vw;
+    z-index: 1;
+}
+
+nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+nav ul li a:hover {
+    color: black !important;
+}
+
+#skyline {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+/* ----------- End of Nav Bar Section ----------- */
+
+/* ----------- Systems Section ----------- */
+
+#tables { /* Section: Tables */
+    margin-top: -100 !important;
+    width: 100vw;
+    height: 100px;
+}
+
+table { /* Tailor Table */
+    background-color: blue;
+    margin-top: -10;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+td a {
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+/* ----------- End of Systems Section ----------- */
+
+/* ----------- Consultation Section ----------- */
+
+.Challenge {
+    width: 100vw;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+}
+
+.tackleChallenge p {
+    padding: 5px;
+    color: black;
+    font-family: arial;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+
+/* ----------- End of Consultation Section ----------- */
+
+
+
+/* ----------- Footer Section ----------- */
+
+#footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: black;
+    background-color: lightgray;
+    position: relative;
+    height: 80px;
+    padding: 10px;
+    margin-top: -60px;
+    clear: both;
+}
+
+/* ----------- End of Footer Section ----------- */
+
+
+
+/* ------------ TO BE ADDED LATER ------------ */
+
+/* 
+th {
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none !important;
+}
+
+table, th {
+    border: 1 solid #1e8aff;
+    background-color: #1e8aff;
+    color: white;
+    height: 30px;
+    width: 50px;
+}
+
+#lightbluesquare {
+    height: 30px;
+    width: 30px;
+    background-color: lightblue;
+} */

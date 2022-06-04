@@ -1,34 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <script  type="module" src="./JS/"></script>
-    <link rel=stylesheet id="style" type="text/css" href="CSS/skylandsystems.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li id="skyline">
-                <a class="navbar-brand" href="/">
-                    <div class="logo">
-                          <img src="/images/Skyline Systems.jpeg" alt="logo" class="img-fluid" height="140px" width="160px">
-                    </div>
-                </a>
-            </li>
-            <li><a href="#solutions" class="nav-link">Solutions</a></li>
-            <li><a href="#about" class="nav-link">About Us</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-    </nav>
+<html>
+    <head>
+        <title>Learning HTML</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
 
-    <header id="home">
-        <div class="full-width-photo">
-            <img src="/images/skyline.jpg" alt="sky" height="500px" width="120%">
-    </div>
-    </header>
+    <body>
+        <div class="background-image"></div>
+        <div id="homePage">
+            <div id="main">
+                <!-- Home Page Nav Bar -->
+                <nav>
+                    <ul>
+                        <li id="skyline">
+                            <a class="navbar-brand" href="/">
+                                <div class="logo">
+                                    <img src="/images/Skyline Systems.jpeg" alt="logo" class="img-fluid" height="100px" width="160px">
+                                </div>
+                            </a>
+                        </li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                        <li><a href="#about" class="nav-link">About Us</a></li>
+                        <li><a href="#solutions" class="nav-link">Solutions</a></li>
+                    </ul>
+                </nav>
+                <!-- End Home Page Nav Bar -->
+            </div>
+            <!-- Section 2: Systems Tabs/Tables -->
+            <section class="tables">
+            <!-- Home Page Tables -->
+            <div class="homePageTables">
+            <!-- Tailored Business Systems Table -->
+            <table class="tailorTable" border: 1px #1e8aff>
+                <tr>
+                    <td><a href="tailored.html">Tailored Business Systems</a></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><a href="legacy.html">Legacy Systems Integration</a></td>
+                </tr>
+            </table>
+            </div>
+        </div>
+        </section>
 
-    <section class="tabs">
-        
-    </section>
-</body>
+        <!-- Section 3: Ready to Tackle Your Systems Challenge? -->
+        <section class="Challenge">
+            <div class="tackleChallenge">
+                <p><b>Ready to tackle your systems challenge?</b></p>
+                <button id="request"><b>Request a Consultation</b></button>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer id="footer">
+            <p><b>Skyland Systems LLC</b><br>
+            www.skylandsystems.com <br>
+            Copyright &copy; 2022
+            </p>
+        </footer>
+    </body>
 </html>
+
+<!-- ADD LATER -->
