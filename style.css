@@ -15,13 +15,9 @@ html, body {
     height: 100%;
 }
 
-#homePage {
-    min-height: 100%;  
-}
-
 #main {
     overflow: auto; /* Scrollbar */
-    padding-bottom: 70px;
+    margin-top: -50px;
     background-color: whitesmoke;
     font-family: 'arial narrow bold' !important;
     font-size: x-large !important;
@@ -65,9 +61,10 @@ nav ul li a:hover {
 /* ----------- Systems Section ----------- */
 
 #tables { /* Section: Tables */
-    margin-top: -100 !important;
+    margin-top: -150 !important;
     width: 100vw;
     height: 100px;
+    margin-bottom: -10px !important; 
 }
 
 table { /* Tailor Table */
@@ -76,6 +73,11 @@ table { /* Tailor Table */
     width: 100%;
     height: 200px;
     padding: 10px;
+}
+
+td {
+    border: 20px;
+    border-color: lightblue !important;
 }
 
 td a {
@@ -96,8 +98,12 @@ td a {
     text-align: center;
 }
 
+#tackleChallenge {
+        overflow: auto; /* Scrollbar */
+}
+
 .tackleChallenge p {
-    padding: 5px;
+    padding: 20px;
     color: black;
     font-family: arial;
 }
