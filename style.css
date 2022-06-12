@@ -4,7 +4,7 @@
 }
 
 .background-image {
-    background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vdW50YWlufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60);
+    background-image: url(/images/Mountain.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 80vh;
@@ -66,7 +66,7 @@ nav ul li a:hover {
     height: 100px;
 }
 
-table { /* Tailor Table */
+table { /* Selection Table */
     background-color: blue;
     margin-top: -10;
     width: 100%;
@@ -79,6 +79,10 @@ td a {
     text-decoration: none;
 }
 
+#customerQuote {
+    background-color: white;
+    text-align: center;
+}
 /* ----------- End of Systems Section ----------- */
 
 /* ----------- Consultation Section ----------- */
@@ -217,7 +221,3 @@ button {
 }
 
 /* ----------- End of Footer Section ----------- */
-
-
-
-/* ------------ TO BE ADDED LATER ------------ */
